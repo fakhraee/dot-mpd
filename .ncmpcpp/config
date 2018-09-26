@@ -1,8 +1,8 @@
-mpd_host = "~/var/mpd/socket"
+mpd_host = "~/var/lib/mpd/socket"
 #mpd_host = localhost
-#mpd_port = 6600
-ncmpcpp_directory = ~/var/mpd/ncmpcpp
-lyrics_directory = ~/var/mpd/lyric
+mpd_port = 6601
+ncmpcpp_directory = ~/var/lib/mpd/ncmpcpp
+lyrics_directory = ~/var/lib/music/lyric
 mpd_music_dir = ~/var/mpd/music
 execute_on_song_change = bash -c "source ~/.shell && song" 
 playlist_show_remaining_time = yes
